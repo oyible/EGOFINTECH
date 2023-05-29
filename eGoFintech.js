@@ -2,9 +2,6 @@
 
 // ti.timeline(default{duration: 1.2s, ease: 1s, reapet: 4s})
 
+var welimage = gsap.timeline({default: {duration: 1.5, delay:1}})
 
-let humber = document.querySelector('menu_click', onclick()=>{
-    document.addEventListener(
-        
-    )
-})
+logo.to(".welcomeanim", {x:10, repeat: -1, yoyo:true})
