@@ -4,4 +4,4 @@
 
 var welimage = gsap.timeline({default: {duration: 1.5, delay:1}})
 
-logo.to(".welcomeanim", {x:10, repeat: -1, yoyo:true})
+welimage.to(".welcomeanim", {x:20, repeat: -1, yoyo:true})
